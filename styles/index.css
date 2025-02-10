@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* --------------- Gallery --------------- */
+
+body {
+    min-height: 100vh;
+
+}
+.gallery {
+    background-color: grey;
+}
+.gallery__img {
+    width: 100%;
+    padding: 1em;
+    object-fit: contain;
+}
+.gallery__images {
+    columns: 320px;
+
+}
