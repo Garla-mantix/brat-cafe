@@ -21,6 +21,6 @@ body {
     object-fit: contain;
 }
 .gallery__images {
-    columns: 320px;
+    columns: 430px;
 
 }
