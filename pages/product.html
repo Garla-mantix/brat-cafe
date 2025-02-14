@@ -8,6 +8,88 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <nav><!-- add navigation here--></nav>
+        <h1>Price List</h1>
+    </header>
+
+    <section>
+        <h2>Coffee</h2>
+        <div>
+            <ul>
+               <li>Espresso</li>
+                <li>Americano</li>
+                <li>Cappuccino</li>
+                <li>Batch brew</li>
+                <li>V60</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Beans</h2>
+        <div >
+            <div>
+                <strong>Brazil</strong>
+            </div>
+            <div>
+                <img src="/images/coffee.jpg" alt="beans-1">
+            </div>
+            <div>price SEK</div>
+        </div>
+        <div >
+            <div>
+                <strong>Kenya</strong>
+            </div>
+            <div>
+                <img src="/images/coffee.jpg" alt="beans-2">
+            </div>
+            <div>price SEK</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Gadgets</h2>
+        <div >
+            <div>
+                <strong>V60</strong>
+            </div>
+            <div>
+                <img src="/images/coffee.jpg" alt="V60">
+            </div>
+            <div>price SEK</div>
+        </div>
+        <div >
+            <div>
+                <strong>AeroPress</strong>
+            </div>
+            <div>
+                <img src="/images/coffee.jpg" alt="AeroPress">
+            </div>
+            <div>price SEK</div>
+        </div>
+    </section>
+
+
+    <form action="">
+        <div class="heading">
+            <h2><label for="email" class="label">Vote for next seasonal brew</label></h2>
+        </div>
+
+        <div class="selector">
+            <input type="email" id="email" placeholder="Enter your email" required autofocus class="email" name="email">
+            <label for="name" class="label">Pick a roast</label>
+            <select id="name" class="select">
+                <option value="placeholder" id="selector">Brat Blend</option>
+                <option value="option1">Peru</option>
+                <option value="option2">Brazil</option>
+                <option value="option4">Surprise me</option>
+            </select>
+        </div>
+            <button type="submit" class="button">Vote</button>
+    </form>
+
+
+    <footer><!-- add footer here--></footer>
 </body>
 </html>
