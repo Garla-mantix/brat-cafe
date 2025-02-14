@@ -2,17 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/index.css">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="../styles/normalize.css" rel="stylesheet">
+    <link href="../styles/index.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav><!-- add navigation here--></nav>
-        <h1>Price List</h1>
-    </header>
-
+<header class="header-container">
+    <img alt="Brat Café Logo" class="logo" src="../images/logo.png">
+    <nav class="header-container__navbar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/about.html">About</a></li>
+            <li><a href="../pages/product.html">Product</a></li>
+            <li><a href="../pages/gallery.html">Gallery</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<h1>Price List</h1>
     <section>
         <h2>Coffee</h2>
         <div>
@@ -33,7 +41,7 @@
                 <strong>Brazil</strong>
             </div>
             <div>
-                <img src="/images/coffee.jpg" alt="beans-1">
+                <img alt="beans-1" src="/images/coffee.jpg">
             </div>
             <div>price SEK</div>
         </div>
@@ -42,7 +50,7 @@
                 <strong>Kenya</strong>
             </div>
             <div>
-                <img src="/images/coffee.jpg" alt="beans-2">
+                <img alt="beans-2" src="/images/coffee.jpg">
             </div>
             <div>price SEK</div>
         </div>
@@ -55,7 +63,7 @@
                 <strong>V60</strong>
             </div>
             <div>
-                <img src="/images/coffee.jpg" alt="V60">
+                <img alt="V60" src="/images/coffee.jpg">
             </div>
             <div>price SEK</div>
         </div>
@@ -64,7 +72,7 @@
                 <strong>AeroPress</strong>
             </div>
             <div>
-                <img src="/images/coffee.jpg" alt="AeroPress">
+                <img alt="AeroPress" src="/images/coffee.jpg">
             </div>
             <div>price SEK</div>
         </div>
@@ -73,20 +81,20 @@
 
     <form action="">
         <div class="heading">
-            <h2><label for="email" class="label">Vote for next seasonal brew</label></h2>
+            <h2><label class="label" for="email">Vote for next seasonal brew</label></h2>
         </div>
 
         <div class="selector">
-            <input type="email" id="email" placeholder="Enter your email" required autofocus class="email" name="email">
-            <label for="name" class="label">Pick a roast</label>
-            <select id="name" class="select">
-                <option value="placeholder" id="selector">Brat Blend</option>
+            <input autofocus class="email" id="email" name="email" placeholder="Enter your email" required type="email">
+            <label class="label" for="name">Pick a roast</label>
+            <select class="select" id="name">
+                <option id="selector" value="placeholder">Brat Blend</option>
                 <option value="option1">Peru</option>
                 <option value="option2">Brazil</option>
                 <option value="option4">Surprise me</option>
             </select>
         </div>
-            <button type="submit" class="button">Vote</button>
+            <button class="button" type="submit">Vote</button>
     </form>
 
 
