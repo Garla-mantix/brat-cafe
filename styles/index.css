@@ -53,7 +53,7 @@ body {
 
 }
 .gallery {
-    background-color: grey;
+    background-color: rgb(210, 10, 10);
 }
 .gallery__intro {
     display: flex;
