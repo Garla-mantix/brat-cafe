@@ -60,19 +60,22 @@ body {
     max-width: 50em;
     margin-left: 20%;
     margin-right: 20%;
-    }
-    .gallery__paragraph {
-        font-size: 1.3em;
-        }
+}
 
-        .gallery__img {
-            width: 100%;
-            padding: 1em;
-            object-fit: contain;
-            }
-            .gallery__images {
-                columns: 430px;
-                }
+.gallery__paragraph {
+    font-size: 1.3em;
+}
+
+.gallery__img {
+    width: 100%;
+    padding: 1em;
+    object-fit: contain;
+}
+
+.gallery__images {
+    columns: 430px;
+}
+
 h1,
 h2,
 h3,
@@ -105,7 +108,7 @@ h4 {
 .site-main {
     position: relative;
     padding: 60px 15px;
-   
+
 }
 
 .site-main-background {
@@ -132,7 +135,7 @@ h4 {
     text-align: center;
     text-decoration: none;
     transition: opacity 0.5s ease;
-    
+
 }
 
 .button:hover {
@@ -140,16 +143,17 @@ h4 {
 }
 
 .button-primary {
-    background-color:green;
+    background-color: green;
     float: right;
-    margin-right:100px;
+    margin-right: 100px;
 }
 
 
 
 
 .card {
-    background-color:rgb(120, 126, 123);;
+    background-color: rgb(120, 126, 123);
+    ;
     border-radius: 10px;
     box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.1);
     padding: 30px 30px 15px;
