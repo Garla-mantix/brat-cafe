@@ -55,6 +55,14 @@ body {
 .gallery {
     background-color: rgb(93, 81, 81);
 }
+
+.gallery__page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .gallery__intro {
     display: flex;
     flex-direction: column;
