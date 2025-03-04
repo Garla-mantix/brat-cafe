@@ -22,27 +22,27 @@
 </header>
 <h1>Price List</h1>
     <section class="coffee-container">
-        <h2>Coffee</h2>
+        <h2 class="menu-title">Coffee</h2>
         <div class="coffee-menu">
            <div class="coffee-menu-item">
-               <strong class="coffee-drink">Espresso</strong>
-                <span class="coffee-price">price SEK</span>
+               <span class="coffee-drink">Espresso</span>
+                <span class="coffee-price">30 SEK</span>
            </div>
             <div class="coffee-menu-item">
-                <strong class="coffee-drink">Americano</strong>
-                <span class="coffee-price">price SEK</span>
+                <span class="coffee-drink">Americano</span>
+                <span class="coffee-price">30 SEK</span>
             </div>
             <div class="coffee-menu-item">
-                <strong class="coffee-drink">Cappuccino</strong>
-                <span class="coffee-price">price SEK</span>
+                <span class="coffee-drink">Batch brew</span>
+                <span class="coffee-price">30 SEK</span>
             </div>
             <div class="coffee-menu-item">
-                <strong class="coffee-drink">Batch brew</strong>
-                <span class="coffee-price">price SEK</span>
+                <span class="coffee-drink">Cappuccino</span>
+                <span class="coffee-price">40 SEK</span>
             </div>
             <div class="coffee-menu-item">
-                <strong class="coffee-drink">V60</strong>
-                <span class="coffee-price">price SEK</span>
+                <span class="coffee-drink">V60</span>
+                <span class="coffee-price">50 SEK</span>
             </div>
 
         </div>
@@ -53,37 +53,37 @@
             <div class="item-title">
                 <strong>Brazil</strong>
             </div>
-            <div class="item-image">
-                <img alt="beans-1" src="/images/coffee.jpg">
+            <div class="item-image1">
+                <img alt="beans-1" src="/images/Brazi.jpeg">
             </div>
-            <div class="item-price">price SEK</div>
+            <div class="item-price">200 SEK</div>
         </div>
         <div class="item-beans">
             <div class="item-title">
                 <strong>Kenya</strong>
             </div>
-            <div class="item-image">
-                <img alt="beans-2" src="/images/coffee.jpg">
+            <div class="item-image2">
+                <img alt="beans-2" src="/images/Keny.jpeg">
             </div>
-            <div class="item-price">price SEK</div>
+            <div class="item-price">200 SEK</div>
         </div>
         <div class="item-beans">
             <div class="item-title">
-                <strong>Colombia</strong>
+                <strong>Rwanda</strong>
             </div>
-            <div class="item-image">
-                <img alt="beans-2" src="/images/coffee.jpg">
+            <div class="item-image3">
+                <img alt="beans-2" src="/images/Rwand.jpeg">
             </div>
-            <div class="item-price">price SEK</div>
+            <div class="item-price">200 SEK</div>
         </div>
         <div class="item-beans">
             <div class="item-title">
                 <strong>Peru</strong>
             </div>
-            <div class="item-image">
-                <img alt="beans-2" src="/images/coffee.jpg">
+            <div class="item-image4">
+                <img alt="beans-2" src="/images/Per.jpeg">
             </div>
-            <div class="item-price">price SEK</div>
+            <div class="item-price">200 SEK</div>
         </div>
     </section>
 <h2>Gadgets</h2>
@@ -93,39 +93,34 @@
                 <strong>V60</strong>
             </div>
             <div class="gadget-image">
-                <img alt="V60" src="/images/coffee.jpg">
+                <img alt="V60" src="/images/V60.jpg">
             </div>
-            <div class="gadget-price">price SEK</div>
+            <div class="gadget-price">200 SEK</div>
         </div>
         <div class="gadget-item">
             <div class="gadget-title">
                 <strong>AeroPress</strong>
             </div>
             <div class="gadget-image">
-                <img alt="AeroPress" src="/images/coffee.jpg">
+                <img alt="AeroPress" src="/images/Aeropress.jpg">
             </div>
-            <div class="gadget-price">price SEK</div>
+            <div class="gadget-price">600 SEK</div>
         </div>
     </section>
-
-
-    <form action=>
-        <div class="vote-heading">
-            <h2><label class="label" for="vote-email">Vote for next seasonal brew</label></h2>
+<h2>Vote for next seasonal brew</h2>
+        <div class="form-container">
+            <div class="blend-selector">
+                 <input autofocus class="vote-email" id="vote-email" name="vote-email" placeholder="Enter your email" required type="email">
+                 <label class="label" for="name">Pick a roast</label>
+                <select class="select" id="name">
+                    <option id="selector" value="placeholder">Brat Blend</option>
+                    <option value="option1">Peru</option>
+                    <option value="option2">Brazil</option>
+                    <option value="option4">Surprise me</option>
+                 </select>
+            </div>
+             <button class="button" type="submit">Vote</button>
         </div>
-
-        <div class="blend-selector">
-            <input autofocus class="vote-email" id="vote-email" name="vote-email" placeholder="Enter your email" required type="email">
-            <label class="label" for="name">Pick a roast</label>
-            <select class="select" id="name">
-                <option id="selector" value="placeholder">Brat Blend</option>
-                <option value="option1">Peru</option>
-                <option value="option2">Brazil</option>
-                <option value="option4">Surprise me</option>
-            </select>
-        </div>
-            <button class="button" type="submit">Vote</button>
-    </form>
 
 
     <footer><!-- add footer here--></footer>

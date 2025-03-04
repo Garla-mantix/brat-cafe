@@ -87,24 +87,46 @@ h1 {
 
 /* CSS FOR PRODUCT */
 
+.coffee-drink {
+    padding-right: 1em;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    max-width: 30%;
+    min-width: 10em;
+    text-align: start;
+}
+.coffee-menu {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+.coffee-menu-item{
+    border-bottom: 1px solid white;
+    padding: 0.3em;
+    margin-bottom: 0.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+}
+
 .item-beans, .gadget-item{
     margin:30px;
-
+    max-width: 50em;
 }
 .item-title, .gadget-title{
     text-align: start;
     display: block;
-    width: 100%;
+    max-width: 100%;
     font-weight: bold;
     /* font-size */
     color: forestgreen;
     margin: 15px;
 }
 
-.item-image, .gadget-image {
-    height: 50px;
-
-}
 .item-price, .gadget-price {
     display: block;
     text-align: start;
@@ -114,21 +136,24 @@ h1 {
 .beans-container, .gadgets-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
-
-
-.coffee-menu-item{
-    padding-right: 1em;
-    display: inline-block;
-
-    padding: 0.5em;
-
-
-}
-
-.coffee-menu{
+.form-container{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+
+}
+
+
+.button {
+    width: 50%;
+    background-color: #14f25d;
+    padding: 5px;
+    color: #000000;
+    border-radius: 3px;
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+    position: relative;
 }
