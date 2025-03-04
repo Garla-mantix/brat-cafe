@@ -1,13 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/index.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/index.css">
+  <title>Contact</title>
 </head>
+
 <body>
-    
+  <header class="header-container">
+    <img class="logo" src="../images/logo.png" alt="Brat Café Logo">
+    <nav class="header-container__navbar">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/about.html">About</a></li>
+        <li><a href="../pages/product.html">Product</a></li>
+        <li><a href="../pages/gallery.html">Gallery</a></li>
+        <li><a href="../pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Site Main Content -->
+  <main role="main" class="site-main">
+    <header aria-labelledby="page-title" class="clearfix site-main-header">
+      <div class="container">
+        <h1 id="page-title">"Love is in the air, and it smells like coffee" </h1>
+        <p class="col-1-2"></p>
+      </div>
+    </header>
+    <section role="region" aria-label="contact-form" class="site-main-section">
+      <div class="container">
+        <div class="card contact-form-container">
+          <div class="clearfix">
+            <div class="col-1-2">
+
+            </div>
+            <h2 class="section-header">Join us!</h2>
+            <form role="form" class="clearfix">
+              <label>Your Name</label>
+              <input type="text" placeholder="Full Name" class="input-error" />
+              <label>Your Email</label>
+              <input type="email" placeholder="Email Address" />
+              <label>How did you find us?</label>
+              <select>
+                <option selected disabled>Please Select One</option>
+                <option>Our website</option>
+                <option>Google</option>
+                <option>Facebook</option>
+                <option>Instagram</option>
+                <option>TikTok</option>
+              </select>
+              <label>What do you most love about coffee?</label>
+              <textarea
+                placeholder="Providgite as much detail as you can so we can make sure to find your perfect coffee blend!"></textarea>
+              <input type="submit" value="Submit Message" class="button button-primary float-right" />
+            </form>
+            <ul class="location-details">
+              <li><b>Address:</b> Örbyvägen 10, 257 30 Rydebäck</li>
+              <li><b>Phone:</b> (123) 456-7890</li>
+              <li><b>Email:</b> support@bratcafe.com</li>
+            </ul>
+          </div>
+          <div class="col-1-2">
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <div class="site-main-background" arai-hidden="true"></div>
+  </main>
 </body>
+
 </html>
