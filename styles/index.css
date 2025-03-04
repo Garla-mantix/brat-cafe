@@ -190,3 +190,131 @@ footer {
     margin-bottom: 3em;
 } 
 
+
+/*---------------Concant-----------------*/
+
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #14f25d;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: 700;
+    transition: font-size 0.25s ease;
+}
+
+h1 {
+    font-size: calc(64px / 1.5);
+    line-height: 1.25;
+    text-align: center;
+}
+
+h2 {
+    font-size: calc(64px / 1.5);
+}
+
+h3 {
+    font-size: calc(45px / 1.5);
+}
+
+h4 {
+    font-size: calc(23px / 1.5);
+}
+
+.site-main {
+    position: relative;
+    padding: 60px 15px;
+
+}
+
+.site-main-background {
+    background-color: #14f25d;
+    height: 300px;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.button {
+    border-radius: 3px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: opacity 0.5s ease;
+
+}
+
+.button:hover {
+    opacity: 0.75;
+}
+
+.button-primary {
+    background-color: green;
+    float: right;
+    margin-right: 100px;
+}
+
+
+
+
+.card {
+    background-color: rgb(120, 126, 123);
+    ;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.1);
+    padding: 30px 30px 15px;
+}
+
+input,
+select,
+textarea {
+    background-color: #FFFFFF;
+    border: 1px solid #F2F3F5;
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 3px 0 rgba(189, 191, 192, 0.10);
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 80%;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    height: auto;
+    width: 200px;
+}
+
+.location-details li {
+    display: block;
+    margin-top: 15px;
+}
+
+li {
+    color: #14f25d;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    list-style: none;
+}
+
+label {
+    color: #eac276;
+    display: block;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
