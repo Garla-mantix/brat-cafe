@@ -2,92 +2,125 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/index.css">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="../styles/normalize.css" rel="stylesheet">
+    <link href="../styles/index.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav><!-- add navigation here--></nav>
-        <h1>Price List</h1>
-    </header>
+<header class="header-container">
+    <img alt="Brat Café Logo" class="logo" src="../images/logo.png">
+    <nav class="header-container__navbar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/about.html">About</a></li>
+            <li><a href="../pages/product.html">Product</a></li>
+            <li><a href="../pages/gallery.html">Gallery</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<h1>Price List</h1>
+    <section class="coffee-container">
+        <h2 class="menu-title">Coffee</h2>
+        <div class="coffee-menu">
+           <div class="coffee-menu-item">
+               <span class="coffee-drink">Espresso</span>
+                <span class="coffee-price">30 SEK</span>
+           </div>
+            <div class="coffee-menu-item">
+                <span class="coffee-drink">Americano</span>
+                <span class="coffee-price">30 SEK</span>
+            </div>
+            <div class="coffee-menu-item">
+                <span class="coffee-drink">Batch brew</span>
+                <span class="coffee-price">30 SEK</span>
+            </div>
+            <div class="coffee-menu-item">
+                <span class="coffee-drink">Cappuccino</span>
+                <span class="coffee-price">40 SEK</span>
+            </div>
+            <div class="coffee-menu-item">
+                <span class="coffee-drink">V60</span>
+                <span class="coffee-price">50 SEK</span>
+            </div>
 
-    <section>
-        <h2>Coffee</h2>
-        <div>
-            <ul>
-               <li>Espresso</li>
-                <li>Americano</li>
-                <li>Cappuccino</li>
-                <li>Batch brew</li>
-                <li>V60</li>
-            </ul>
         </div>
     </section>
-
-    <section>
-        <h2>Beans</h2>
-        <div >
-            <div>
+<h2>Beans</h2>
+    <section class="beans-container">
+        <div class="item-beans">
+            <div class="item-title">
                 <strong>Brazil</strong>
             </div>
-            <div>
-                <img src="/images/coffee.jpg" alt="beans-1">
+            <div class="item-image1">
+                <img alt="beans-1" src="/images/Brazi.jpeg">
             </div>
-            <div>price SEK</div>
+            <div class="item-price">200 SEK</div>
         </div>
-        <div >
-            <div>
+        <div class="item-beans">
+            <div class="item-title">
                 <strong>Kenya</strong>
             </div>
-            <div>
-                <img src="/images/coffee.jpg" alt="beans-2">
+            <div class="item-image2">
+                <img alt="beans-2" src="/images/Keny.jpeg">
             </div>
-            <div>price SEK</div>
+            <div class="item-price">200 SEK</div>
+        </div>
+        <div class="item-beans">
+            <div class="item-title">
+                <strong>Rwanda</strong>
+            </div>
+            <div class="item-image3">
+                <img alt="beans-2" src="/images/Rwand.jpeg">
+            </div>
+            <div class="item-price">200 SEK</div>
+        </div>
+        <div class="item-beans">
+            <div class="item-title">
+                <strong>Peru</strong>
+            </div>
+            <div class="item-image4">
+                <img alt="beans-2" src="/images/Per.jpeg">
+            </div>
+            <div class="item-price">200 SEK</div>
         </div>
     </section>
-
-    <section>
-        <h2>Gadgets</h2>
-        <div >
-            <div>
+<h2>Gadgets</h2>
+    <section class="gadgets-container">
+        <div class="gadget-item" >
+            <div class="gadget-title">
                 <strong>V60</strong>
             </div>
-            <div>
-                <img src="/images/coffee.jpg" alt="V60">
+            <div class="gadget-image">
+                <img alt="V60" src="/images/V60.jpg">
             </div>
-            <div>price SEK</div>
+            <div class="gadget-price">200 SEK</div>
         </div>
-        <div >
-            <div>
+        <div class="gadget-item">
+            <div class="gadget-title">
                 <strong>AeroPress</strong>
             </div>
-            <div>
-                <img src="/images/coffee.jpg" alt="AeroPress">
+            <div class="gadget-image">
+                <img alt="AeroPress" src="/images/Aeropress.jpg">
             </div>
-            <div>price SEK</div>
+            <div class="gadget-price">600 SEK</div>
         </div>
     </section>
-
-
-    <form action="">
-        <div class="heading">
-            <h2><label for="email" class="label">Vote for next seasonal brew</label></h2>
+<h2>Vote for next seasonal brew</h2>
+        <div class="form-container">
+            <div class="blend-selector">
+                 <input autofocus class="vote-email" id="vote-email" name="vote-email" placeholder="Enter your email" required type="email">
+                 <label class="label" for="name">Pick a roast</label>
+                <select class="select" id="name">
+                    <option id="selector" value="placeholder">Brat Blend</option>
+                    <option value="option1">Peru</option>
+                    <option value="option2">Brazil</option>
+                    <option value="option4">Surprise me</option>
+                 </select>
+            </div>
+             <button class="button" type="submit">Vote</button>
         </div>
-
-        <div class="selector">
-            <input type="email" id="email" placeholder="Enter your email" required autofocus class="email" name="email">
-            <label for="name" class="label">Pick a roast</label>
-            <select id="name" class="select">
-                <option value="placeholder" id="selector">Brat Blend</option>
-                <option value="option1">Peru</option>
-                <option value="option2">Brazil</option>
-                <option value="option4">Surprise me</option>
-            </select>
-        </div>
-            <button type="submit" class="button">Vote</button>
-    </form>
 
 
     <footer><!-- add footer here--></footer>
