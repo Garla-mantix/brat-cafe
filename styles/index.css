@@ -194,11 +194,7 @@ footer {
 /*---------------Concant-----------------*/
 
 
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2{
     color: #14f25d;
     font-family: 'Roboto', Helvetica, sans-serif;
     font-weight: 700;
@@ -215,13 +211,7 @@ h2 {
     font-size: calc(64px / 1.5);
 }
 
-h3 {
-    font-size: calc(45px / 1.5);
-}
 
-h4 {
-    font-size: calc(23px / 1.5);
-}
 
 .site-main {
     position: relative;
@@ -261,7 +251,7 @@ h4 {
 }
 
 .button-primary {
-    background-color: green;
+    background-color: #14f25d;
     float: right;
     margin-right: 100px;
 }
@@ -309,7 +299,7 @@ li {
 }
 
 label {
-    color: #eac276;
+    color: #14f25d;
     display: block;
     font-family: 'Roboto', Helvetica, sans-serif;
     font-size: 12px;
