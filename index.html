@@ -1,51 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/aafa7cdabb.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/normalize.css">
+    <title>Brat Café</title>
     <link rel="stylesheet" href="styles/index.css">
-    <title>Home</title>
 </head>
 <body>
-    <header class="header-container">
-        <img class="logo" src="../images/logo.png" alt="Brat Café Logo">
-        <nav class="header-container__navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/about.html">About</a></li>
-                <li><a href="pages/product.html">Product</a></li>
-                <li><a href="pages/gallery.html">Gallery</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1 class="main-name">Brat Cafe</h1>
-        <p class="main-paragraph">Your Intergalactic Coffee Stop</p>
-   
-        <section>
-            <button class="button">Visit Us Today!</button>
-        </section>
-        <section class="about">
-            <h2 class="about-section">About Brat Cafe</h2>
-            <p>Welcome to Brat Cafe, where cosmic brews and stellar snacks await you!  
-                Whether you're from Mars or just down the street, our alien-themed cafe offers an experience that's out of this world.  
-                From our signature nebula lattes to meteor muffins, every item on our menu is crafted to transport your taste buds to another dimension.  
-                Come in, relax under our starry ambiance, and let our galactic flavors take you on an interstellar journey.</p>
-           
-            <p>At Brat Cafe, we believe coffee should be an adventure. Our baristas are passionate about crafting the perfect blend, using only the finest beans sourced from across the galaxy!  
-                Whether you prefer a classic espresso or a futuristic fusion of flavors, we have something to tantalize your taste buds.</p>
- 
-            <p>Not a coffee drinker? No worries! We offer an extensive selection of teas, cosmic smoothies, and stellar pastries that are perfect for any space traveler.  
-                Our cozy, otherworldly atmosphere makes Brat Cafe the perfect spot to meet friends, get work done, or simply enjoy a moment of peace before your next intergalactic mission.</p>
-        </section>        
-        </main>
-        <footer class="footer">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-tiktok"></i>
-            <i class="fa-brands fa-instagram"></i>
-        </footer>
+    <div class="main-landing">
+        <div class="navbar-landing">
+            <img class="logo" src="../images/logo.png" alt="Brat Café Logo">
+             <nav class="header-container__navbar">
+                 <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/about.html">About</a></li>
+                    <li><a href="../pages/product.html">Product</a></li>
+                    <li><a href="../pages/gallery.html">Gallery</a></li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+
+        </div> 
+        <div class="content">
+            <h1>Your Intergalactic Coffee Stop</h1>
+            <p class="par">Welcome to Brat Cafe, where cosmic brews and stellar snacks await you!
+                <br> Whether you're from Mars or just down the street, our alien-themed cafe offers an experience that's out of this world.
+                <br> Come in, relax under our starry ambiance, and let our galactic flavors take you on an interstellar journey.</p>
+
+                <button class="cn"><a href="#">Visit Us Today!</a></button>
+
+                <div class="form">
+                    <h2>Login Here</h2>
+                    <input type="email" name="email" placeholder="Enter Email Here">
+                    <input type="password" name="" placeholder="Enter Password Here">
+                    <button class="btnn"><a href="#">Login</a></button>
+
+                    <p class="link">Don't have an account<br>
+                    <a href="#">Sign up </a> here</a></p>
+                    <p class="liw">Log in with</p>
+
+                    <div class="icons">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-tiktok"></ion-icon></a>
+                    </div>
+
+                </div>
+                    </div>
+                </div>
+        </div>
+    </div>
 </body>
 </html>
