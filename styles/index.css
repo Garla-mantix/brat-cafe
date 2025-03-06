@@ -217,6 +217,11 @@ h2 {
     font-size: large;
 }
 
+.gadget-container, .coffee-container, .beans-container {
+    font-family: Helvetica, sans-serif;
+}
+
+
 /* -------- Footer ------- */
 
 footer {
@@ -366,10 +371,6 @@ label {
     margin-bottom: 5px;
 }
 
-
-.gadget-container, .coffee-container, .beans-container {
-    font-family: Helvetica, sans-serif;
-}
 
 /*--------------About us-----------------*/
 
