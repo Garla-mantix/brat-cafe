@@ -211,6 +211,11 @@ h2 {
     font-size: large;
 }
 
+.gadget-container, .coffee-container, .beans-container {
+    font-family: Helvetica, sans-serif;
+}
+
+
 /* -------- Footer ------- */
 
 footer {
