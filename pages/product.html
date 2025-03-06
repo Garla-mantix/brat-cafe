@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <script src="https://kit.fontawesome.com/aafa7cdabb.js" crossorigin="anonymous"></script>
     <link href="../styles/normalize.css" rel="stylesheet">
     <link href="../styles/index.css" rel="stylesheet">
     <title>Document</title>
@@ -14,13 +15,12 @@
         <ul>
             <li><a href="../index.html">Home</a></li>
             <li><a href="../pages/about.html">About</a></li>
-            <li><a href="../pages/product.html">Product</a></li>
+            <li><a href="../pages/product.html">Prices</a></li>
             <li><a href="../pages/gallery.html">Gallery</a></li>
             <li><a href="../pages/contact.html">Contact</a></li>
         </ul>
     </nav>
 </header>
-<h1>Price List</h1>
     <section class="coffee-container">
         <h2 class="menu-title">Coffee</h2>
         <div class="coffee-menu">
@@ -44,85 +44,79 @@
                 <span class="coffee-drink">V60</span>
                 <span class="coffee-price">50 SEK</span>
             </div>
-
         </div>
     </section>
 <h2>Beans</h2>
-    <section class="beans-container">
+    <div class="beans-container">
         <div class="item-beans">
-            <div class="item-title">
-                <strong>Brazil</strong>
-            </div>
-            <div class="item-image1">
-                <img alt="beans-1" src="/images/Brazi.jpeg">
+            <strong class="item-beans-title">Brazil</strong>
+            <div>
+                <img class="beans-item-image" alt="beans-1" src="/images/Brazil.jpeg">
             </div>
             <div class="item-price">200 SEK</div>
         </div>
         <div class="item-beans">
-            <div class="item-title">
-                <strong>Kenya</strong>
-            </div>
+            <strong class="item-beans-title">Kenya</strong>
             <div class="item-image2">
-                <img alt="beans-2" src="/images/Keny.jpeg">
+                <img class="beans-item-image" alt="beans-2" src="/images/Kenya.jpeg">
             </div>
             <div class="item-price">200 SEK</div>
         </div>
         <div class="item-beans">
-            <div class="item-title">
-                <strong>Rwanda</strong>
-            </div>
+            <strong class="item-beans-title">Rwanda</strong>
             <div class="item-image3">
-                <img alt="beans-2" src="/images/Rwand.jpeg">
+                <img class="beans-item-image" alt="beans-2" src="/images/Rwanda.jpeg">
             </div>
             <div class="item-price">200 SEK</div>
         </div>
         <div class="item-beans">
-            <div class="item-title">
-                <strong>Peru</strong>
-            </div>
+                <strong class="item-beans-title">Peru</strong>
             <div class="item-image4">
-                <img alt="beans-2" src="/images/Per.jpeg">
+                <img class="beans-item-image" alt="beans-2" src="/images/Peru.jpeg">
             </div>
             <div class="item-price">200 SEK</div>
         </div>
-    </section>
+    </div>
 <h2>Gadgets</h2>
-    <section class="gadgets-container">
-        <div class="gadget-item" >
-            <div class="gadget-title">
-                <strong>V60</strong>
-            </div>
+    <div class="gadgets-container">
+        <div class="gadget-item">
+            <strong class="gadget-title">V60</strong>
             <div class="gadget-image">
-                <img alt="V60" src="/images/V60.jpg">
+                <img class="gadget-item-image" alt="V60" src="/images/V60.jpg">
             </div>
             <div class="gadget-price">200 SEK</div>
         </div>
         <div class="gadget-item">
-            <div class="gadget-title">
-                <strong>AeroPress</strong>
-            </div>
+            <strong class="gadget-title">AeroPress</strong>
             <div class="gadget-image">
-                <img alt="AeroPress" src="/images/Aeropress.jpg">
+                <img class="gadget-item-image" alt="AeroPress" src="/images/Aeropress.jpeg">
             </div>
             <div class="gadget-price">600 SEK</div>
         </div>
-    </section>
+    </div>
+<div class="vote-container">
 <h2>Vote for next seasonal brew</h2>
-        <div class="form-container">
-            <div class="blend-selector">
-                 <input autofocus class="vote-email" id="vote-email" name="vote-email" placeholder="Enter your email" required type="email">
-                 <label class="label" for="name">Pick a roast</label>
-                <select class="select" id="name">
-                    <option id="selector" value="placeholder">Brat Blend</option>
+        <div class="container-form">
+            <div class="vote-email">
+                <label for="vote-email">Step 1:</label>
+                 <input type="email" required placeholder="Enter your email" class="vote-email" name="vote-email" id="vote-email">
+            </div>
+            <div class="select-roast">
+                 <label class="label-email" for="blend-name">Step 2:</label>
+                 <select class="select-blend" id="blend-name">
+                    <option id="blend-selector" value="placeholder">Pick a roast</option>
                     <option value="option1">Peru</option>
                     <option value="option2">Brazil</option>
-                    <option value="option4">Surprise me</option>
+                    <option value="option3">Brat Blend</option>
                  </select>
             </div>
              <button class="button" type="submit">Vote</button>
         </div>
-
-
-    <footer><!-- add footer here--></footer>
+</div>
+<footer class="footer">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-tiktok"></i>
+    <i class="fa-brands fa-instagram"></i>
+</footer>
 </body>
 </html>

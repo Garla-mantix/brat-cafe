@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* --------------- Navbar ----------------- */
 
 .header-container {
@@ -32,7 +33,7 @@
     list-style: none;
     display: flex;
     gap: 15px;
-    font-family: Helvetica, sans-serif
+    font-family: Helvetica, sans-serif;
 }
 
 .header-container__navbar a {
@@ -47,43 +48,35 @@
     color: #14f25d
 }
 
-
 /* --------------- Gallery --------------- */
 
 body {
     min-height: 100vh;
-
 }
+
 .gallery {
     background-color: rgb(120, 126, 123);
-}
-
-.gallery__page {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    padding: 1em
 }
 
 .gallery__intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin: 3em;
-    max-width: 50em;
-    margin-left: 20%;
-    margin-right: 20%;
-    font-family: Helvetica, sans-serif
+    font-family: Helvetica, sans-serif;
 }
 
-h1 {
+.gallery__intro-container {
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    padding: 2em;
+}
+
+.gallery__title {
     text-align: center;
 }
 
 .gallery__paragraph {
     font-size: 1.3em;
-
 }
 
 .gallery__img {
@@ -93,11 +86,16 @@ h1 {
 }
 .gallery__images {
     columns: 430px;
-
 }
 
 
 /* CSS FOR PRODUCT */
+
+h2 {
+    text-align: center;
+    margin: 50px;
+    font-size: 35px;
+}
 
 .coffee-drink {
     padding-right: 1em;
@@ -108,12 +106,26 @@ h1 {
     min-width: 10em;
     text-align: start;
 }
+
 .coffee-menu {
     margin-top: 20px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    background-color: #14f25d;
+    border-radius: 10px;
+    box-sizing: border-box;
+    min-width: max-content;
+    padding: 20px;
+    width: 60%;
+    font-size: 20px;
 }
+
+.coffee-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .coffee-menu-item{
-    border-bottom: 1px solid white;
     padding: 0.3em;
     margin-bottom: 0.1em;
     display: flex;
@@ -121,54 +133,88 @@ h1 {
     justify-content: center;
 }
 
-h2{
+.item-beans,.gadget-item {
+    margin: 30px
+}
+
+.item-beans-title,.gadget-title {
+    display: block;
+    width: 100%;
     text-align: center;
+    font-weight: normal;
+    font-size: 1.5em;
+    color: black;
+    margin-bottom: 15px;
 }
 
-.item-beans, .gadget-item{
-    margin:30px;
-    max-width: 50em;
-}
-.item-title, .gadget-title{
-    text-align: start;
-    display: block;
-    max-width: 100%;
-    font-weight: bold;
-    /* font-size */
-    color: forestgreen;
-    margin: 15px;
+.beans-item-image, .gadget-item-image {
+    max-height: 250px;
 }
 
-.item-price, .gadget-price {
-    display: block;
-    text-align: start;
-    padding: 10px;
+.item-price,.gadget-price {
+    padding: 5px;
+
 }
 
-.beans-container, .gadgets-container {
+.beans-container,.gadgets-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
 }
 
-.form-container{
+.item-price, .gadget-price {
     display: flex;
-    justify-content: center;
-
+    justify-content: flex-end;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #14f25d;
 }
-
 
 .button {
-    width: 50%;
     background-color: #14f25d;
     padding: 5px;
     color: #000000;
     border-radius: 3px;
-    font-size: 10px;
-    font-family: "Roboto", sans-serif;
-    position: relative;
+    width: 30% ;
+    max-width: 100px;
+    margin-top: 15px;
 }
+
+.container-form{
+    padding-bottom: 20px;
+    padding-top:20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #14f25d;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: max-content;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.vote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.select-blend{
+    width: 300px;
+    font-size: large;
+}
+
+.vote-email{
+    width: 300px;
+    font-size: large;
+}
+
+.gadget-container, .coffee-container, .beans-container {
+    font-family: Helvetica, sans-serif;
+}
+
 
 /* -------- Footer ------- */
 
@@ -181,7 +227,6 @@ footer {
     padding: 2em;
     width: 100%;
     height: 4em;
-   
 }
 
 .fa-brands {
@@ -190,9 +235,7 @@ footer {
     margin-bottom: 3em;
 } 
 
-
-/*---------------Concant-----------------*/
-
+/*---------------Contact-----------------*/
 
 h2{
     color: #14f25d;
@@ -215,7 +258,6 @@ h1 {
 .site-main {
     position: relative;
     padding: 60px 15px;
-
 }
 
 .site-main-background {
@@ -242,7 +284,6 @@ h1 {
     text-align: center;
     text-decoration: none;
     transition: opacity 0.5s ease;
-
 }
 
 .button:hover {
@@ -254,9 +295,6 @@ h1 {
     float: right;
     margin-right: 100px;
 }
-
-
-
 
 .card {
     background-color: rgb(120, 126, 123);
@@ -305,4 +343,56 @@ label {
     font-weight: 700;
     line-height: 18px;
     margin-bottom: 5px;
+}
+
+/*--------------About us-----------------*/
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+  
+.card {
+    box-shadow: 0 4px 8px 0 #14f25d;
+    margin: 8px;
+}
+ 
+.container {
+    padding: 0 16px;
+}
+  
+.container::after, .row::after {
+    clear: both;
+    display: table;
+}
+  
+.title {
+    color: #14f25d ;
+}
+  
+.button {
+    border-radius: 10px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #14f25d;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+  
+.button:hover {
+    background-color: #14f25d;
+}
+
+.smarli {
+    width: fit-content;
+}
+  
+.gleepa {
+    width: fit-content;
 }
