@@ -322,33 +322,68 @@ label {
 
 /*--------------About us-----------------*/
 
-.column {
+.about__us {
+    font-family: "helvetica", sans-serif;
+    padding: 2rem;
+}
+
+.about__us_info {
+    height: 400px;
+    width: 25%;
+    padding: 2rem;
+    margin-left: 5%;
+}
+
+.about__info {
+    text-align: start;
+}
+
+.our__mission {
+    font-family: "helvetica", sans-serif;
+    padding: 2rem;
+    width: 25%;
+}
+
+
+.meet__founders {
+    display: flex;
+    justify-content: center;
+}
+
+.founders {
+    display: flex;
+    width: 100%;
+    justify-self: center;
+    
+}
+
+.about__team {
     float: left;
-    width: 33.3%;
+    width: 20%;
     margin-bottom: 16px;
     padding: 0 8px;
+    
   }
   
-  .card {
-    box-shadow: 0 4px 8px 0 #14f25d;
+.about__card {
     margin: 8px;
   }
   
  
-  .container {
+.card__info {
     padding: 0 16px;
   }
   
-  .container::after, .row::after {
+.card__info::after {
     clear: both;
     display: table;
   }
   
-  .title {
+.card__title {
     color: #14f25d ;
   }
   
-  .button {
+.team__button {
     border-radius: 10px;
     border: none;
     outline: 0;
@@ -361,17 +396,19 @@ label {
     width: 100%;
   }
   
-  .button:hover {
-    background-color: #14f25d;
+.team__button:hover {
+    background-color: #226338;
   }
 
 
+
 .smarli {
-    width: fit-content;
+    border-radius: 50%;
+    height: 200px
+ }
 
-}
-  
 .gleepa {
-    width: fit-content;
-
+    height: 200px;
+   border-radius: 50%;
 }
+
