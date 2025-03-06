@@ -367,6 +367,10 @@ label {
 }
 
 
+.gadget-container, .coffee-container, .beans-container {
+    font-family: Helvetica, sans-serif;
+}
+
 /*--------------About us-----------------*/
 
 .column {
